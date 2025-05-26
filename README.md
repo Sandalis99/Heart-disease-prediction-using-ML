@@ -1,21 +1,15 @@
 # Heart Disease Prediction Using Machine Learning
 
----
-
 ## Project Overview
 
 This project implements a Machine Learning model to predict the likelihood of heart disease in patients based on various health parameters.  
 Using a Random Forest Classifier, the model analyzes input features to provide an early diagnosis, which can be crucial in preventive healthcare.
-
----
 
 ## Dataset
 
 The dataset contains medical attributes such as age, sex, cholesterol levels, blood pressure, exercise-induced angina, and more.  
 Data preprocessing includes one-hot encoding for categorical variables to ensure the model handles data correctly.  
 Source: [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/kamilpytlak/heart-cvd-dataset)
-
----
 
 ## Features Used
 
@@ -32,35 +26,21 @@ Source: [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/kamilpytl
 - Number of Major Vessels  
 - Thalassemia  
 
----
-
 ## How to Use
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/yourusername/heart-disease-prediction.git
 cd heart-disease-prediction
-
 2. Install required packages
-bash
-Copy
-Edit
 pip install -r requirements.txt
 3. Train the model
-bash
-Copy
-Edit
 python train_model.py
 4. Run the Streamlit application
-bash
-Copy
-Edit
 streamlit run app.py
-Project Structure
-bash
-Copy
-Edit
+
+#Project Structure
+
 heart-disease-prediction/
 │
 ├── data/                  # Dataset files
@@ -73,20 +53,21 @@ heart-disease-prediction/
 ├── README.md              # Project documentation
 ├── requirements.txt       # List of dependencies
 └── .gitignore             # Git ignore file
-Dependencies
-pandas
 
-numpy
+#Dependencies
+1.pandas
 
-scikit-learn
+2.numpy
 
-streamlit
+3.scikit-learn
 
-pickle (built-in Python library)
+4.streamlit
 
-Contributing
+5.pickle (built-in Python library)
+
+#Contributing
 Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit pull requests.
 
-Contact
-For any questions or feedback, please reach out to Your Name at your.email@example.com.
+#Contact
+For any questions or feedback, please reach out to Sandali Singh at sandalisingh97@gmail.com
 
